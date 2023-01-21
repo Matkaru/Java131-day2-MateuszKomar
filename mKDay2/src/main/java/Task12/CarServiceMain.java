@@ -17,6 +17,7 @@ public class CarServiceMain {
         Car car4 = new Car("Audi", "A8",30000,2006,manufacturers,EngineType.V12);
         carService.addCar(car1);
         carService.addCar(car2);
+        carService.addCar(car3);
         carService.addCar(car4);
 
         System.out.println("################################");

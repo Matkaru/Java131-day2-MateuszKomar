@@ -17,6 +17,18 @@ public class Manufacturer {
     private Year yearOfFunded;
     private String country;
 
+    public String getName() {
+        return name;
+    }
+
+    public Year getYearOfFunded() {
+        return yearOfFunded;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
     public Manufacturer(String name, int yearOfFunded, String country) {
         this.name = name;
         this.yearOfFunded = Year.of(yearOfFunded);
